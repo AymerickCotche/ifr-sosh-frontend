@@ -1,0 +1,23 @@
+{
+  "user" : {
+    "nom": "Jackson",
+    "prenom": "Michael",
+    "adresse": {
+      "rue": "1 rue des ananas",
+      "ville": "Saint-Paul",
+      "codePostale": "97460",
+      "pays": "La Réunion"
+    },
+    "mobiles": [
+      {
+        "numéro" : "0692 12 34 56",
+        "nomForfait": "Série limitée Sosh 1To - 5G",
+        "engagement": false,
+        "actif": true,
+        "prixDeBase": 29.99,
+        "dataGo": 1000
+      }
+      
+    ]
+  }
+}

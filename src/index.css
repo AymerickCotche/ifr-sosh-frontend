@@ -1,3 +1,23 @@
-.red {
-  background-color: red;
+
+
+.header-one {
+  background-color: #26828e;
+}
+
+.footer {
+  background-color: #222222;
+}
+
+ .navbar-light .nav-link:hover {
+  color: #26828e !important;
+  font-weight: bold !important;
+}
+
+.footer-link:hover {
+  text-decoration: underline !important;
+}
+
+.btn-link {
+  color: white !important;
+  text-decoration:none !important; 
 }
