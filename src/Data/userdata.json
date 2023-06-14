@@ -1,23 +1,87 @@
 {
   "user" : {
-    "nom": "Jackson",
-    "prenom": "Michael",
-    "adresse": {
-      "rue": "1 rue des ananas",
-      "ville": "Saint-Paul",
-      "codePostale": "97460",
-      "pays": "La Réunion"
+    "infos": {
+
+      "nom": "JACKSON",
+      "prenom": "Michael",
+      "dateInscription": "15 août 2020",
+      "adresse": {
+        "rue": "1 rue des ananas",
+        "ville": "Saint-Paul",
+        "codePostale": "97460",
+        "pays": "La Réunion"
+      }
     },
     "mobiles": [
       {
-        "numéro" : "0692 12 34 56",
+        "numero" : "0692 12 34 56",
         "nomForfait": "Série limitée Sosh 1To - 5G",
         "engagement": false,
         "actif": true,
         "prixDeBase": 29.99,
-        "dataGo": 1000
+        "dataGo": 1000,
+        "dataEnd": 750
+      },
+      {
+        "numero" : "0692 99 88 77",
+        "nomForfait": "Sosh 30 Go",
+        "engagement": false,
+        "actif": true,
+        "prixDeBase": 14.99,
+        "dataGo": 30,
+        "dataEnd": 21
       }
       
+    ],
+    "factures":[
+      {
+        "nom": "FA2023160516MJ123456",
+        "date": {
+          "jour": "16",
+          "mois": "05",
+          "moisTxt": "Mai",
+          "annee": "2023"
+        },
+        "dateTxt": "16 Mai 2023",
+        "montant": 29.99,
+        "statut": "payé"
+      },
+      {
+        "nom": "FA2023160416MJ123456",
+        "date": {
+          "jour": "17",
+          "mois": "04",
+          "moisTxt": "Avril",
+          "annee": "2023"
+        },
+        "dateTxt": "17 Avril 2023",
+        "montant": 45.81,
+        "statut": "payé"
+      },
+      {
+        "nom": "FA2023160316MJ123456",
+        "date": {
+          "jour": "15",
+          "mois": "03",
+          "moisTxt": "Mars",
+          "annee": "2023"
+        },
+        "dateTxt": "15 Mars 2023",
+        "montant": 29.99,
+        "statut": "payé"
+      },
+      {
+        "nom": "FA2023160216MJ123456",
+        "date": {
+          "jour": "19",
+          "mois": "02",
+          "moisTxt": "Février",
+          "annee": "2023"
+        },
+        "dateTxt": "19 Février 2023",
+        "montant": 52.65,
+        "statut": "payé"
+      }
     ]
   }
 }
