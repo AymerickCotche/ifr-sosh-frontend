@@ -1,9 +1,7 @@
-import dataJson from '../../Data/userdata.json';
+function Mobiles({userData}) {
 
-function Mobiles() {
-
-    const dataMobiles = dataJson.user.mobiles[0];
-    const dataInfoUser = dataJson.user.infos;
+    const dataMobiles = userData.mobiles[0];
+    const dataInfoUser = userData.infos;
 
     return (
         <div className="bg-sosh-subtle px-5 py-3">
@@ -30,7 +28,7 @@ function Mobiles() {
 
 
                 <div class="progress px-0" role="progressbar" aria-label="Warning consommation" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar text-bg-sosh fs-6">75%</div>
+                    <div class="progress-bar progress-bar-striped progress-bar-animated text-bg-sosh fs-6">75%</div>
                 </div>
             </div>
             <div className="row col-md-5">
@@ -39,7 +37,7 @@ function Mobiles() {
                 </button>
             </div>
             <div className="pt-3 d-grid gap-2 col-6 mx-auto">
-                <button className="btn btn-dark">
+                <button className="btn btn-secondary main-btn">
                     Gérer mes mobiles
                 </button>
             </div>

@@ -1,10 +1,8 @@
- import data from '../../Data/userdata.json';
- 
- function Factures() {
+function Factures({userData}) {
+  console.log(userData)
+  const lastInvoice = userData.factures[0];
 
-  const lastInvoice = data.user.factures[0];
-
-  const thirdInvoices = [data.user.factures[1],data.user.factures[2],data.user.factures[3]];
+  const thirdInvoices = [userData.factures[1],userData.factures[2],userData.factures[3]];
 
   const jsxInvoices = thirdInvoices.map(invoice => (
     <div className='col-md-4 text-center'>
@@ -35,7 +33,7 @@
         {jsxInvoices}
       </div>
       <div className="pt-3 d-grid gap-2 col-6 mx-auto">
-        <button className="btn btn-dark">
+        <button className="btn btn-secondary main-btn">
           Historique complet
         </button>
       </div>

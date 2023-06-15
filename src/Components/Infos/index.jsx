@@ -1,8 +1,6 @@
- import data from '../../Data/userdata.json';
- 
- function Infos() {
+function Infos({userData}) {
 
-  const userInfos = data.user.infos;
+  const userInfos = userData.infos;
 
   return (
     <div className="bg-sosh-subtle px-5 py-3 h-100 d-flex flex-column justify-content-between">
@@ -26,7 +24,7 @@
 
         <span><strong>Inscrit depuis le</strong> {userInfos.dateInscription} </span>
         <div className="pt-3 d-grid gap-2 col-6 mx-auto">
-          <button className="btn btn-dark">
+          <button className="btn btn-secondary main-btn">
             Gérer mon compte
           </button>
         </div>
